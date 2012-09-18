@@ -1,0 +1,32 @@
+<html>
+  <head>
+
+    <title>App tests</title>
+
+
+    <!-- jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+
+    <!-- Mocha framework -->
+    <script type="text/javascript" src="./tools/mocha/mocha.js"></script>
+    <script type="text/javascript" src="./tools/mocha/expect.js"></script>
+    <link rel="stylesheet" type="text/css" href="./tools/mocha/mocha.css">
+
+    <!-- Script that sets up mocha and runs the tests on DOM ready -->
+    <script type="text/javascript" src="./mocharunner.js"></script>
+
+    <!-- app -->
+    <script type="text/javascript" src="./I18N.js"></script>
+
+    <!-- tests -->
+    <script type="text/javascript" src="./tests.js"></script>
+
+  </head>
+  <body>
+
+    <!-- Html reporting for tests, usefull if running 
+    the tests in an browser with a head -->
+    <div id="mocha"></div>
+
+  </body>
+</html>
