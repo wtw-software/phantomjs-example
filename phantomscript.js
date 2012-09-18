@@ -1,7 +1,8 @@
 
 var page = new WebPage();
 
-// Route "console.log()" calls from within the Page context to the main Phantom context (i.e. current "this")
+// console.log called within the page will be echoed by this script
+// so we can output messages while we run the tests
 page.onConsoleMessage = function(msg) {
   console.log(msg);
 };
